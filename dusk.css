@@ -1,29 +1,29 @@
 ::selection {
-  background: hotpink;
+  background: deeppink;
   color: black;
 }
 
 :root {
-  background: #111;
-  color: #ddd;
+  background: darkviolet;
+  color: moccasin;
 }
 
-:link {
-  color: plum;
-  background: #100;
+:any-link {
+  color: peachpuff;
 }
 
-:visited {
-  color: orchid;
-  background: #100;
+a:hover {
+  text-decoration-color: paleturquoise;
 }
 
-:any-link:hover {
-  color: hotpink;
-  text-decoration-color: #e0e;
+s:hover {
+  text-decoration-color: transparent;
 }
 
-mark {
-  background: #e99;
-  color: #100;
+samp {
+  text-shadow:
+   1ex 1ex 0 darkmagenta,
+    -1ex -1ex 0 darkorchid,
+    -1ex 1ex 0 darkorchid,
+    1ex -1ex 0 darkmagenta;
 }

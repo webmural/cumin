@@ -1,10 +1,11 @@
 ::selection {
   background: deeppink;
-  color: black;
+  color: #303;
 }
 
 :root {
-  background: darkviolet;
+  background-color: darkviolet;
+  background-image: linear-gradient(.3turn, darkviolet, blueviolet, darkviolet);
   color: moccasin;
 }
 
